@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome | Antony's Blog</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <h1>Antony's Blog</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to My Tech Blog</h2>
+      <p>Exploring the latest in web development and technology</p>
+      <a href="blog.html" class="cta-button">Read Latest Posts</a>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="features">
+      <h2>What You'll Find Here</h2>
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fas fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Latest trends and best practices in web development</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-mobile-alt"></i>
+          <h3>Responsive Design</h3>
+          <p>Tips and tricks for creating beautiful responsive websites</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-rocket"></i>
+          <h3>Performance</h3>
+          <p>Optimization techniques for better web performance</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="latest-posts">
+      <h2>Latest Articles</h2>
+      <div class="post-grid">
+        <article class="post">
+          <img src="https://i.pinimg.com/736x/a2/06/3f/a2063f9f0c46cf047f72f2929289e829.jpg" alt="JavaScript Development"/>
+          <div class="post-content">
+            <h3>Why JavaScript Rocks</h3>
+            <p class="post-meta"><i class="far fa-calendar"></i> Jan 10, 2025</p>
+            <p>JavaScript enables interactive websites and powers most of the modern web apps.</p>
+            <a href="blog.html" class="read-more">Read More</a>
+          </div>
+        </article>
+
+        <article class="post">
+          <img src="https://i.pinimg.com/736x/44/dc/f3/44dcf3c4889c68fed18f039599572645.jpg" alt="CSS Grid"/>
+          <div class="post-content">
+            <h3>Mastering CSS Grid</h3>
+            <p class="post-meta"><i class="far fa-calendar"></i> Feb 2, 2025</p>
+            <p>CSS Grid simplifies layout design and offers a structured way to build responsive UIs.</p>
+            <a href="blog.html" class="read-more">Read More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Subscribe to Newsletter</h2>
+      <p>Get the latest articles and updates delivered to your inbox</p>
+      <form id="newsletter-form">
+        <input type="email" placeholder="Enter your email" required/>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+      
+        <p>&copy; 2025 Antony Gatitu | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

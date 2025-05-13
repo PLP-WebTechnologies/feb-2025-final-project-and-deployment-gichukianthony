@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Posts | Antony's Blog</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <h1>Antony's Blog</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to My Tech Blog</h2>
+      <p>Exploring the latest in web development and technology</p>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="featured-posts">
+      <h2>Featured Articles</h2>
+      <div class="post-grid">
+        <article class="post">
+          <img src="https://i.pinimg.com/736x/0d/78/0a/0d780a8333af8c205f4a683deb5f6eb2.jpg" alt="JavaScript Development"/>
+          <div class="post-content">
+            <h3>Why JavaScript Rocks</h3>
+            <p class="post-meta"><i class="far fa-calendar"></i> Jan 10, 2025</p>
+            <p>JavaScript enables interactive websites and powers most of the modern web apps. From dynamic forms to full-fledged frontends with frameworks like React, JS continues to evolve rapidly.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+
+        <article class="post">
+          <img src="https://i.pinimg.com/736x/48/71/10/4871108a9dd4fb53bfc7f20ea7256652.jpg" alt="CSS Grid"/>
+          <div class="post-content">
+            <h3>Mastering CSS Grid</h3>
+            <p class="post-meta"><i class="far fa-calendar"></i> Feb 2, 2025</p>
+            <p>CSS Grid simplifies layout design and offers a structured way to build responsive UIs without relying on frameworks.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+
+        <article class="post">
+          <img src="https://i.pinimg.com/736x/69/e1/61/69e161b739e31ad8896c362481a9ae0f.jpg" alt="Web Development"/>
+          <div class="post-content">
+            <h3>The Future of Web Development</h3>
+            <p class="post-meta"><i class="far fa-calendar"></i> Feb 15, 2025</p>
+            <p>Exploring upcoming trends and technologies that will shape the future of web development in the coming years.</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <h2>Subscribe to Newsletter</h2>
+      <p>Get the latest articles and updates delivered to your inbox</p>
+      <form id="newsletter-form">
+        <input type="email" placeholder="Enter your email" required/>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+      
+        <p>&copy; 2025 Antony Gatitu | All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
